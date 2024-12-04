@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout Orientation="Vertical" Spacing="0">
+        <StackLayout Orientation="Horizontal" Spacing="0">
+            <BoxView Color="Yellow" WidthRequest="120" HeightRequest="150"/>
+            <BoxView Color="Red" WidthRequest="125" HeightRequest="150"/>
+            <BoxView Color="Green" WidthRequest="125" HeightRequest="150"/>
+        </StackLayout>
+        <BoxView Color="Black" HeightRequest="180"/>
+        <StackLayout Orientation="Horizontal" Spacing="0">
+            <BoxView Color="Blue" WidthRequest="185" HeightRequest="170"/>
+            <BoxView Color="Aqua" WidthRequest="185" HeightRequest="170"/>
+        </StackLayout>
+        <BoxView Color="Red" HeightRequest="125"/>
+
+        <Button Text="Вторая страница"  Clicked="OnButtonClicked" />
+    </StackLayout>
+
+</ContentPage>
